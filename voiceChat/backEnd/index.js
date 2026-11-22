@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Server is working!" });
 });
 
-app.get("/hello-world", (req, res) => {
+app.get("/greet", (req, res) => {
   res.json({ message: "Hello everyone" });
 });
 
